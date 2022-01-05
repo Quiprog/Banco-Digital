@@ -1,78 +1,25 @@
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+# Criando um Banco Digital com Java e Orientação a Objetos
 
-# Sobre o projeto
+## Projeto
+Banco Digital
 
-https://wmazoni-sds1.netlify.app
+## Introdução
+Neste projeto, que faz parte do bootcamp Cognizant/DIO, abstraiu-se uma solução orientada a objetos na criação de um banco digital.
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+## Tecnologias envolvidas neste projeto
+Eclipse IDE 2021-12, Java SE-17 e o Spring Framework 5.3.14.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+## Arquitetura do projeto
+![arquitetura](https://user-images.githubusercontent.com/64603537/148291891-90d1ccb4-359a-4f6b-9d92-2cdcdbbd1048.png)
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+## Desenvolvimento:
+Neste projeto, foi desenvolvido um banco digital que oferece três tipos de contas (corrente, especial e poupança) com as funcionalidades de depósito (com restrição quando há saldo insuficiente) depósito “especial” (quando a operação é efetuada ainda que há saldo insuficiente), transferência (entre contas da própria instituição) e saque.
+Ao longo do desenvolvimento praticou-se a Abstração, que é a habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais; nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
+Conceitos como encapsulamento - significa esconder a implementação dos objetos, criando assim interfaces de uso mais concisas e fáceis de usar/entender, favorecendo assim a manutenção e evolução de um sistema; como herança – que permite a reutilização de métodos mediante a derivação de uma classe pai e o polimorfismo – que é a capacidade de um objeto ser referenciado de várias formas, ou seja, é a capacidade de tratar objetos criados a partir de classes específicas como objetos de uma classe genérica, também foram praticados nesse projeto.
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
-# Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
 
-# Como executar o projeto
 
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
-# Autor
-
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
 
